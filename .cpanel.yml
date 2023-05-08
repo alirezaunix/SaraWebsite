@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/cpsrv63818728365/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R index.html $DEPLOYPATH
