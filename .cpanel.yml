@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/cpsrv63818728365/public_html/
     - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R mail.php $DEPLOYPATH
